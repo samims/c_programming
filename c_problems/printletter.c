@@ -8,7 +8,7 @@ A A
 
 #include <stdio.h>
 
-int main()
+int main(void)
 
 {
 	char i,j,k,n;
