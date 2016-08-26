@@ -1,9 +1,10 @@
-/* fibo series */
+/* fibo series
+ */
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
 {
-	
+
 	int a,b,i,n,x;
 	i = a =0,b = 1;
 
@@ -11,7 +12,7 @@ int main(int argc, char const *argv[])
 	scanf("%d",&n);
 
 	printf("%d\n",a );
-	
+
 	while(i<n)
 	{
 	    x = a;
@@ -21,7 +22,5 @@ int main(int argc, char const *argv[])
 
 		printf("%d\n",a );
 	}
-
+  return 0;
 }
-
-

@@ -5,9 +5,8 @@
 long fibo(int a);
 
 int main()
-{	int index = 5;
-	//printf("Enter your your index number\n");
-	//scanf("%d",&index);
+{	int index ;
+	scanf("%d",&index);
 
 
 	printf("Result %ld\n",fibo(index));
@@ -24,4 +23,5 @@ long fibo(int a)
 	
 	else
 		return fibo(a-1)+ fibo(a-2);
+		
 }
