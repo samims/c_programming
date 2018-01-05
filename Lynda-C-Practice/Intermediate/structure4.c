@@ -19,8 +19,8 @@ int main(int argc, char const *argv[])
 	//struct person friend;
 	strcpy(friend.name,"Samim Sk");
 	friend.birthday.year = 1993;
-	friend.birthday.month = 8;
-	friend.birthday.day = 6;
+	friend.birthday.month = 9;
+	friend.birthday.day = 26;
 
 	printf("My friend %s was born in %d/%d/%d\n",friend.name, friend.birthday.year,friend.birthday.month,friend.birthday.day);
 
